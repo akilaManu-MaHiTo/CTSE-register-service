@@ -85,7 +85,7 @@ public class AuthService {
 
         String token = jwtService.getJWTToken(loginData.getEmail(), claims);
 
-        return new LoginResponseDTO(token, LocalDateTime.now(), null, "Token generated successfully In Docker New Image");
+        return new LoginResponseDTO(token, LocalDateTime.now(), null, "Token generated successfully In Docker New Restaurant Image");
 
     }
 
